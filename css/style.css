@@ -932,6 +932,12 @@ body.offcanvas {
     color: #000; }
     .work-menu span a.active {
       color: #2c98f0; }
+  .work-menu button{
+    color: #000; }
+  .work-menu button.programs-filter-btn-active,
+  .work-menu button.programs-sort-btn-active {
+   background: #2c98f0;
+   color: white; }
 
 .project {
   background-size: cover;
@@ -1435,3 +1441,17 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
+
+/*work grid*/
+
+.grid {
+  position: relative;
+}
+
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.grid .mix {display:inline-block; }
