@@ -1455,3 +1455,15 @@ body.offcanvas {
 }
 
 .grid .mix {display:inline-block; }
+
+@media (max-width: 576px) {
+ .col-md-6 {
+      width: 100%;
+  }
+}
+
+@media (min-width: 768px){
+  .col-md-6 {
+      width: 49%;
+  }
+}
